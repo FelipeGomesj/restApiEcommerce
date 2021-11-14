@@ -159,7 +159,7 @@ router.delete('/',(req,res,next)=> {
                         url: 'http://localhost:3000/produtos',
                         body:{
                             nome: 'String',
-                            preco: 'number'
+                            preco: 'number' /** */
                         }
                     }
                 }
